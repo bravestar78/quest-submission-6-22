@@ -51,8 +51,8 @@ transaction(city: String, state: String, miles: Int, activity: String) {
 ```cadence
 import Practice from 0x02
 
-pub fun main (city: String): Practice.Details {
+pub fun main (city: String): Practice.Details {   // alternatively -> Practice.Details? 
     log (Practice.vacation) 
-    return Practice.vacation[city]!
+    return Practice.vacation[city]!               // alternatively -> Practice.vacation[city]
 }
 ```
